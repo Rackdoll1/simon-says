@@ -64,6 +64,7 @@ const checkPatternCompletion = () => {
 const restartGame = () => {
   started = false;
   level = 0;
+  gamePattern.length = 0;
   userClickedPattern.length = 0;
   answerIndex = 0;
 };
